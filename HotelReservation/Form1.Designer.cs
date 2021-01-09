@@ -38,9 +38,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.lblCountOfFreeRooms = new System.Windows.Forms.Label();
-            this.panelAdvertLeft = new System.Windows.Forms.Panel();
-            this.lblFreeRooms = new System.Windows.Forms.Label();
+            this.topMenuName = new System.Windows.Forms.Label();
+            this.panelContentHolder = new System.Windows.Forms.Panel();
+            this.panelTopMenu = new System.Windows.Forms.Panel();
+            this.pnlRedLine = new System.Windows.Forms.Panel();
+            this.panelMenu = new System.Windows.Forms.Panel();
+            this.panelSideNav = new System.Windows.Forms.Panel();
+            this.picArrow = new System.Windows.Forms.PictureBox();
+            this.panelContent = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.txtBoxSmoke = new System.Windows.Forms.TextBox();
             this.txtBoxDuration = new System.Windows.Forms.TextBox();
@@ -49,33 +54,28 @@
             this.txtBoxAge = new System.Windows.Forms.TextBox();
             this.txtBoxNameOfReservation = new System.Windows.Forms.TextBox();
             this.panelAdvert = new System.Windows.Forms.Panel();
-            this.topMenuName = new System.Windows.Forms.Label();
-            this.panelContentHolder = new System.Windows.Forms.Panel();
-            this.panelContent = new System.Windows.Forms.Panel();
-            this.panelTopMenu = new System.Windows.Forms.Panel();
-            this.pnlRedLine = new System.Windows.Forms.Panel();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelSideNav = new System.Windows.Forms.Panel();
+            this.panelAdvertLeft = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblFreeRooms = new System.Windows.Forms.Label();
+            this.lblCountOfFreeRooms = new System.Windows.Forms.Label();
             this.btnMinimizeProgram = new System.Windows.Forms.Button();
             this.btnExpandProgram = new System.Windows.Forms.Button();
             this.btnExitProgram = new System.Windows.Forms.Button();
-            this.picArrow = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnContactUs = new System.Windows.Forms.Button();
             this.btnAboutUs = new System.Windows.Forms.Button();
             this.btnPrices = new System.Windows.Forms.Button();
             this.btnReserve = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.panelAdvertLeft.SuspendLayout();
-            this.panelAdvert.SuspendLayout();
             this.panelContentHolder.SuspendLayout();
-            this.panelContent.SuspendLayout();
             this.panelTopMenu.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panelSideNav.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picArrow)).BeginInit();
+            this.panelContent.SuspendLayout();
+            this.panelAdvert.SuspendLayout();
+            this.panelAdvertLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,104 +172,6 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // lblCountOfFreeRooms
-            // 
-            this.lblCountOfFreeRooms.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblCountOfFreeRooms.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblCountOfFreeRooms.ForeColor = System.Drawing.Color.White;
-            this.lblCountOfFreeRooms.Location = new System.Drawing.Point(0, 0);
-            this.lblCountOfFreeRooms.Name = "lblCountOfFreeRooms";
-            this.lblCountOfFreeRooms.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
-            this.lblCountOfFreeRooms.Size = new System.Drawing.Size(124, 88);
-            this.lblCountOfFreeRooms.TabIndex = 0;
-            this.lblCountOfFreeRooms.Text = "49";
-            this.lblCountOfFreeRooms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panelAdvertLeft
-            // 
-            this.panelAdvertLeft.Controls.Add(this.pictureBox1);
-            this.panelAdvertLeft.Controls.Add(this.lblFreeRooms);
-            this.panelAdvertLeft.Controls.Add(this.lblCountOfFreeRooms);
-            this.panelAdvertLeft.Location = new System.Drawing.Point(0, 0);
-            this.panelAdvertLeft.Name = "panelAdvertLeft";
-            this.panelAdvertLeft.Size = new System.Drawing.Size(124, 88);
-            this.panelAdvertLeft.TabIndex = 0;
-            // 
-            // lblFreeRooms
-            // 
-            this.lblFreeRooms.Location = new System.Drawing.Point(33, 38);
-            this.lblFreeRooms.Name = "lblFreeRooms";
-            this.lblFreeRooms.Size = new System.Drawing.Size(62, 15);
-            this.lblFreeRooms.TabIndex = 1;
-            this.lblFreeRooms.Text = "Free rooms";
-            this.lblFreeRooms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(236, 272);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // txtBoxSmoke
-            // 
-            this.txtBoxSmoke.Location = new System.Drawing.Point(209, 193);
-            this.txtBoxSmoke.Name = "txtBoxSmoke";
-            this.txtBoxSmoke.Size = new System.Drawing.Size(115, 20);
-            this.txtBoxSmoke.TabIndex = 6;
-            // 
-            // txtBoxDuration
-            // 
-            this.txtBoxDuration.Location = new System.Drawing.Point(378, 193);
-            this.txtBoxDuration.Name = "txtBoxDuration";
-            this.txtBoxDuration.Size = new System.Drawing.Size(115, 20);
-            this.txtBoxDuration.TabIndex = 5;
-            // 
-            // txtBoxRoomType
-            // 
-            this.txtBoxRoomType.Location = new System.Drawing.Point(44, 193);
-            this.txtBoxRoomType.Name = "txtBoxRoomType";
-            this.txtBoxRoomType.Size = new System.Drawing.Size(115, 20);
-            this.txtBoxRoomType.TabIndex = 4;
-            // 
-            // txtBoxRoomNumber
-            // 
-            this.txtBoxRoomNumber.Location = new System.Drawing.Point(378, 134);
-            this.txtBoxRoomNumber.Name = "txtBoxRoomNumber";
-            this.txtBoxRoomNumber.Size = new System.Drawing.Size(115, 20);
-            this.txtBoxRoomNumber.TabIndex = 3;
-            // 
-            // txtBoxAge
-            // 
-            this.txtBoxAge.Location = new System.Drawing.Point(209, 134);
-            this.txtBoxAge.Name = "txtBoxAge";
-            this.txtBoxAge.Size = new System.Drawing.Size(115, 20);
-            this.txtBoxAge.TabIndex = 2;
-            // 
-            // txtBoxNameOfReservation
-            // 
-            this.txtBoxNameOfReservation.Location = new System.Drawing.Point(44, 134);
-            this.txtBoxNameOfReservation.Name = "txtBoxNameOfReservation";
-            this.txtBoxNameOfReservation.Size = new System.Drawing.Size(115, 20);
-            this.txtBoxNameOfReservation.TabIndex = 1;
-            // 
-            // panelAdvert
-            // 
-            this.panelAdvert.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panelAdvert.Controls.Add(this.panelAdvertLeft);
-            this.panelAdvert.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panelAdvert.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAdvert.ForeColor = System.Drawing.Color.Transparent;
-            this.panelAdvert.Location = new System.Drawing.Point(0, 0);
-            this.panelAdvert.Margin = new System.Windows.Forms.Padding(30, 3, 3, 10);
-            this.panelAdvert.Name = "panelAdvert";
-            this.panelAdvert.Padding = new System.Windows.Forms.Padding(0, 10, 10, 10);
-            this.panelAdvert.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.panelAdvert.Size = new System.Drawing.Size(554, 85);
-            this.panelAdvert.TabIndex = 0;
-            // 
             // topMenuName
             // 
             this.topMenuName.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -289,6 +191,7 @@
             // 
             this.panelContentHolder.BackColor = System.Drawing.Color.Transparent;
             this.panelContentHolder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panelContentHolder.Controls.Add(this.picArrow);
             this.panelContentHolder.Controls.Add(this.panelContent);
             this.panelContentHolder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContentHolder.Location = new System.Drawing.Point(127, 25);
@@ -296,21 +199,6 @@
             this.panelContentHolder.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
             this.panelContentHolder.Size = new System.Drawing.Size(657, 436);
             this.panelContentHolder.TabIndex = 18;
-            // 
-            // panelContent
-            // 
-            this.panelContent.Controls.Add(this.button2);
-            this.panelContent.Controls.Add(this.txtBoxSmoke);
-            this.panelContent.Controls.Add(this.txtBoxDuration);
-            this.panelContent.Controls.Add(this.txtBoxRoomType);
-            this.panelContent.Controls.Add(this.txtBoxRoomNumber);
-            this.panelContent.Controls.Add(this.txtBoxAge);
-            this.panelContent.Controls.Add(this.txtBoxNameOfReservation);
-            this.panelContent.Controls.Add(this.panelAdvert);
-            this.panelContent.Location = new System.Drawing.Point(61, 33);
-            this.panelContent.Name = "panelContent";
-            this.panelContent.Size = new System.Drawing.Size(554, 392);
-            this.panelContent.TabIndex = 0;
             // 
             // panelTopMenu
             // 
@@ -360,8 +248,113 @@
             this.panelSideNav.Size = new System.Drawing.Size(127, 461);
             this.panelSideNav.TabIndex = 14;
             // 
+            // picArrow
+            // 
+            this.picArrow.BackColor = System.Drawing.Color.Transparent;
+            this.picArrow.Image = global::HotelReservation.Properties.Resources.Arrow;
+            this.picArrow.Location = new System.Drawing.Point(0, 63);
+            this.picArrow.Name = "picArrow";
+            this.picArrow.Size = new System.Drawing.Size(23, 43);
+            this.picArrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picArrow.TabIndex = 17;
+            this.picArrow.TabStop = false;
+            // 
+            // panelContent
+            // 
+            this.panelContent.BackgroundImage = global::HotelReservation.Properties.Resources.ContentHolder;
+            this.panelContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelContent.Controls.Add(this.button2);
+            this.panelContent.Controls.Add(this.txtBoxSmoke);
+            this.panelContent.Controls.Add(this.txtBoxDuration);
+            this.panelContent.Controls.Add(this.txtBoxRoomType);
+            this.panelContent.Controls.Add(this.txtBoxRoomNumber);
+            this.panelContent.Controls.Add(this.txtBoxAge);
+            this.panelContent.Controls.Add(this.txtBoxNameOfReservation);
+            this.panelContent.Controls.Add(this.panelAdvert);
+            this.panelContent.Location = new System.Drawing.Point(40, 27);
+            this.panelContent.Name = "panelContent";
+            this.panelContent.Size = new System.Drawing.Size(575, 398);
+            this.panelContent.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(250, 274);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "button1";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // txtBoxSmoke
+            // 
+            this.txtBoxSmoke.Location = new System.Drawing.Point(228, 220);
+            this.txtBoxSmoke.Name = "txtBoxSmoke";
+            this.txtBoxSmoke.Size = new System.Drawing.Size(115, 20);
+            this.txtBoxSmoke.TabIndex = 6;
+            // 
+            // txtBoxDuration
+            // 
+            this.txtBoxDuration.Location = new System.Drawing.Point(389, 220);
+            this.txtBoxDuration.Name = "txtBoxDuration";
+            this.txtBoxDuration.Size = new System.Drawing.Size(115, 20);
+            this.txtBoxDuration.TabIndex = 5;
+            // 
+            // txtBoxRoomType
+            // 
+            this.txtBoxRoomType.Location = new System.Drawing.Point(70, 220);
+            this.txtBoxRoomType.Name = "txtBoxRoomType";
+            this.txtBoxRoomType.Size = new System.Drawing.Size(115, 20);
+            this.txtBoxRoomType.TabIndex = 4;
+            // 
+            // txtBoxRoomNumber
+            // 
+            this.txtBoxRoomNumber.Location = new System.Drawing.Point(389, 153);
+            this.txtBoxRoomNumber.Name = "txtBoxRoomNumber";
+            this.txtBoxRoomNumber.Size = new System.Drawing.Size(115, 20);
+            this.txtBoxRoomNumber.TabIndex = 3;
+            // 
+            // txtBoxAge
+            // 
+            this.txtBoxAge.Location = new System.Drawing.Point(228, 153);
+            this.txtBoxAge.Name = "txtBoxAge";
+            this.txtBoxAge.Size = new System.Drawing.Size(115, 20);
+            this.txtBoxAge.TabIndex = 2;
+            // 
+            // txtBoxNameOfReservation
+            // 
+            this.txtBoxNameOfReservation.Location = new System.Drawing.Point(70, 153);
+            this.txtBoxNameOfReservation.Name = "txtBoxNameOfReservation";
+            this.txtBoxNameOfReservation.Size = new System.Drawing.Size(115, 20);
+            this.txtBoxNameOfReservation.TabIndex = 1;
+            // 
+            // panelAdvert
+            // 
+            this.panelAdvert.BackgroundImage = global::HotelReservation.Properties.Resources.AdvertBackground;
+            this.panelAdvert.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelAdvert.Controls.Add(this.panelAdvertLeft);
+            this.panelAdvert.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panelAdvert.ForeColor = System.Drawing.Color.Transparent;
+            this.panelAdvert.Location = new System.Drawing.Point(50, 36);
+            this.panelAdvert.Margin = new System.Windows.Forms.Padding(30, 3, 3, 10);
+            this.panelAdvert.Name = "panelAdvert";
+            this.panelAdvert.Padding = new System.Windows.Forms.Padding(0, 10, 10, 10);
+            this.panelAdvert.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.panelAdvert.Size = new System.Drawing.Size(479, 85);
+            this.panelAdvert.TabIndex = 0;
+            // 
+            // panelAdvertLeft
+            // 
+            this.panelAdvertLeft.Controls.Add(this.pictureBox1);
+            this.panelAdvertLeft.Controls.Add(this.lblFreeRooms);
+            this.panelAdvertLeft.Controls.Add(this.lblCountOfFreeRooms);
+            this.panelAdvertLeft.Location = new System.Drawing.Point(0, 0);
+            this.panelAdvertLeft.Name = "panelAdvertLeft";
+            this.panelAdvertLeft.Size = new System.Drawing.Size(124, 88);
+            this.panelAdvertLeft.TabIndex = 0;
+            // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::HotelReservation.Properties.Resources.CurrentGuestsIcon;
             this.pictureBox1.ImageLocation = "";
             this.pictureBox1.Location = new System.Drawing.Point(44, 56);
             this.pictureBox1.Name = "pictureBox1";
@@ -370,6 +363,28 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            // 
+            // lblFreeRooms
+            // 
+            this.lblFreeRooms.Location = new System.Drawing.Point(33, 38);
+            this.lblFreeRooms.Name = "lblFreeRooms";
+            this.lblFreeRooms.Size = new System.Drawing.Size(62, 15);
+            this.lblFreeRooms.TabIndex = 1;
+            this.lblFreeRooms.Text = "Free rooms";
+            this.lblFreeRooms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblCountOfFreeRooms
+            // 
+            this.lblCountOfFreeRooms.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblCountOfFreeRooms.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblCountOfFreeRooms.ForeColor = System.Drawing.Color.White;
+            this.lblCountOfFreeRooms.Location = new System.Drawing.Point(0, 0);
+            this.lblCountOfFreeRooms.Name = "lblCountOfFreeRooms";
+            this.lblCountOfFreeRooms.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
+            this.lblCountOfFreeRooms.Size = new System.Drawing.Size(124, 88);
+            this.lblCountOfFreeRooms.TabIndex = 0;
+            this.lblCountOfFreeRooms.Text = "49";
+            this.lblCountOfFreeRooms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnMinimizeProgram
             // 
@@ -410,16 +425,6 @@
             this.btnExitProgram.TabIndex = 2;
             this.btnExitProgram.UseVisualStyleBackColor = true;
             this.btnExitProgram.Click += new System.EventHandler(this.btnExitProgram_Click);
-            // 
-            // picArrow
-            // 
-            this.picArrow.BackColor = System.Drawing.Color.Transparent;
-            this.picArrow.Location = new System.Drawing.Point(127, 35);
-            this.picArrow.Name = "picArrow";
-            this.picArrow.Size = new System.Drawing.Size(23, 43);
-            this.picArrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picArrow.TabIndex = 16;
-            this.picArrow.TabStop = false;
             // 
             // picLogo
             // 
@@ -544,7 +549,6 @@
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.panelContentHolder);
             this.Controls.Add(this.panelTopMenu);
-            this.Controls.Add(this.picArrow);
             this.Controls.Add(this.panelSideNav);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
@@ -559,17 +563,17 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panelAdvertLeft.ResumeLayout(false);
-            this.panelAdvert.ResumeLayout(false);
             this.panelContentHolder.ResumeLayout(false);
-            this.panelContent.ResumeLayout(false);
-            this.panelContent.PerformLayout();
             this.panelTopMenu.ResumeLayout(false);
             this.panelTopMenu.PerformLayout();
             this.panelMenu.ResumeLayout(false);
             this.panelSideNav.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picArrow)).EndInit();
+            this.panelContent.ResumeLayout(false);
+            this.panelContent.PerformLayout();
+            this.panelAdvert.ResumeLayout(false);
+            this.panelAdvertLeft.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -615,8 +619,8 @@
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.PictureBox picLogo;
-        private System.Windows.Forms.PictureBox picArrow;
         private System.Windows.Forms.Panel panelSideNav;
+        private System.Windows.Forms.PictureBox picArrow;
     }
 }
 

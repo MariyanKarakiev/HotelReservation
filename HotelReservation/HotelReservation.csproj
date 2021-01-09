@@ -128,6 +128,18 @@
   <ItemGroup>
     <None Include="Resources\ContactUsIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CurrentGuestsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContentHolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdvertBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

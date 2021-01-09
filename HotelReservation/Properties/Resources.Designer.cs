@@ -73,9 +73,49 @@ namespace HotelReservation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AdvertBackground {
+            get {
+                object obj = ResourceManager.GetObject("AdvertBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Arrow {
+            get {
+                object obj = ResourceManager.GetObject("Arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ContactUsIcon {
             get {
                 object obj = ResourceManager.GetObject("ContactUsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ContentHolder {
+            get {
+                object obj = ResourceManager.GetObject("ContentHolder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CurrentGuestsIcon {
+            get {
+                object obj = ResourceManager.GetObject("CurrentGuestsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
