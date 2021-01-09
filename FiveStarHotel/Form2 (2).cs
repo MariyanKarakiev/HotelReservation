@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HotelReservation
+namespace FiveStarHotel
 {
-    public partial class Form1 : Form
+    public partial class ReservePage : Form
     {
-        public Form1()
+        public ReservePage()
         {
             InitializeComponent();
         }
 
-        private void NameBox_TextChanged(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
