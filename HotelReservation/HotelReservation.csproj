@@ -98,6 +98,36 @@
       <Name>Data</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResizeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MinimizeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReserveIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PriceIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutUsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContactUsIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
