@@ -11,8 +11,9 @@ using System.Windows.Forms;
 
 namespace HotelReservation
 {
-    public partial class Form1 : Form
+    public partial class MainPage : Form
     {
+        
         // Making the Top menu moveable.
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HTCAPTION = 0x2;
@@ -21,7 +22,7 @@ namespace HotelReservation
         [DllImport("User32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
-        public Form1()
+        public MainPage()
         {
             InitializeComponent();
 
@@ -72,6 +73,48 @@ namespace HotelReservation
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
             }
+        }
+
+        // Moving redline in navigation
+       // TODO: Make the redline go back to home whenever the mouse leaves the menu.
+        private void btnReserve_MouseHover(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 50);
+        }
+
+        private void btnPrices_MouseHover(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 98);
+        }
+
+        private void btnAboutUs_MouseHover(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 145);
+        }
+
+        private void btnContactUs_MouseHover(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 192);
+        }
+
+        private void btnHome_MouseHover(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 2);
+        }
+
+        private void panelMenu_MouseLeave_1(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 2);
+        }
+
+        private void panelContentHolder_MouseHover(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 2);
+        }
+
+        private void panelSideNav_MouseLeave(object sender, EventArgs e)
+        {
+            pnlRedLine.Location = new Point(2, 2);
         }
     }
 }
